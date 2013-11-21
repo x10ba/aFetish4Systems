@@ -1,18 +1,47 @@
 {
   "name": "stuff",
   "version": "0.0.1",
-  "description": "i like stuff",
+  "description": "I like stuff",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com: x10ba/aFetish4Systems/stuff.git"
-},
+  "dependencies": {
+    "creationix": "~0.3.1",
+    "stack": "~0.1.0",
+    "wheat": "~0.2.6"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:x10ba/aFetish4Systems.git"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {
+    "stack": ">=0.0.3",
+    "creationix": ">=0.1.2",
+    "wheat": ">=0.2.0",
+    "cluster": ">=0.6.4",
+    "forever": ">=0.10.0",
+    "connect": ">=2.4.3"
+  },
+  "devDependencies": {
+
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  },
   "keywords": [
-    "x10ba"
+    "git",
+    "wheat",
+    "blog",
+    "node",
+    "gith"
   ],
   "author": "x10ba",
-  "license": "BSD-2-Clause"
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": ""
 }
